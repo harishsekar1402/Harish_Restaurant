@@ -16,13 +16,12 @@ section{
 }
 .nav{
     display: block;
-    position: sticky;
     height: 70px;
     width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(16, 15, 15);
 
 }
 a{
@@ -81,9 +80,9 @@ a{
 .location{
     margin-top: 5%;
     height: 400px;
-    width: 300px;
+    width: 350px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.644);
     border-radius: 20px;
     color: black;
 }
@@ -256,6 +255,25 @@ button{
 .form
 {
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.544);
+    background-color: rgba(232, 232, 232, 0.544);
     border-radius: 30px;
+}
+input{
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+select{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+input:hover{
+    border: 1px solid black;
+}
+button:hover{
+    border: 1px solid black;
+}
+select:hover{
+    border: 1px solid black;
 }
