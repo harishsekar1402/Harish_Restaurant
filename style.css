@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
     
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
 ::selection{
     color: white;
     background-color: #F76E11;
@@ -15,13 +21,14 @@ section{
     width: auto;
 }
 .nav{
-    display: block;
+    position: sticky;
+    top: 0;
     height: 70px;
     width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(16, 15, 15);
+    background-color: rgba(255, 255, 255, 0.374);
 
 }
 a{
